@@ -58,10 +58,10 @@ function without(source, itemsRemoved) {
 without([1, 2, 3], [1]) // => [2, 3]
 without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
 
-const words = ["hello", "world", "lighthouse"];
-without(words, ["lighthouse"]); // no need to capture return value for this test case
+const words = [1, 2, 3];
+without(words, [3]); // no need to capture return value for this test case
 // Make sure the original array was not altered by the without function
-assertArraysEqual(words, ["hello", "world", "lighthouse"]);
+assertArraysEqual(words, [1, 2, 4]);
 
 
 //The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate.

@@ -11,12 +11,12 @@ const assertEqual = function(actual, expected) {
 
 function countLetters(allLetters) {
 
- allLetters = allLetters.replace(/ /g, ''); //regex
+ allLetters = allLetters.replace(/ /g, ''); //regex --> this gets rid of spaces
 
-  const results = {};
+  const results = {}; // empty object
 
-  for (const letter of allLetters) { 
-    if (results[letter]) {
+  for (const letter of allLetters) { //for of loop
+    if (results[letter]) { //
       results[letter] += 1;
     } else {
       results[letter] = 1;

@@ -14,7 +14,7 @@ const letterPositions = function(sentence) {
   //console.log(sentence);
   const results = {};
   for (const index in sentence) { 
-    const letter = sentence[index]
+    const letter = sentence[index] 
     if (results[letter]) {
       results[letter] += (", " + index);
     } else {

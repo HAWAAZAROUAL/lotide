@@ -8,8 +8,8 @@ const assertEqual = function(actual, expected) {
 
 const tail = function(arr) {
   let array = [];
-  for (let i = 1; i < arr.length; i++) {
-    array.push(arr[i]);
+  for (let i = 1; i < arr.length; i++) { //This starts the looping from the second element in array- therefore excluding the first.
+    array.push(arr[i]); // Now we are pushing the elements from the loop into this new variable to create and array.
   }
   return array;
 };
