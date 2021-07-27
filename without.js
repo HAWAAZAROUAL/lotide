@@ -39,22 +39,7 @@ function without(source, itemsRemoved){
   }
   return newArray
 }
-/*
-function without(source, itemsRemoved) {
-  let newArray = [];
-  //eqarray is true? return empty string
-  if(eqArrays(source, itemsRemoved)){
-    return newArray;
-  }
-  //loop through source and exclude what is in itemsRemoved. but add what isn't included in itemsRemoved
-  for (item of source) {
-  if(!(itemsRemoved.includes(item))) {
-    newArray.push(item);
-   }
-  }
-  return newArray;
-}
-*/
+
 without([1, 2, 3], [1]) // => [2, 3]
 without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
 
@@ -65,3 +50,6 @@ assertArraysEqual(words, [1, 2, 4]);
 
 
 //The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate.
+
+//export
+module.exports = without;

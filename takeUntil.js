@@ -35,3 +35,6 @@ console.log(results3);
 //this loops through the given array- Now I want to test for the true value
 //console.log(callback(item));
 //so if item of array is = to callback(item) - if that's true- then we stop the loop
+
+//export
+module.exports = takeUntil;

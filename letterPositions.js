@@ -31,3 +31,5 @@ console.log(letterPositions("hello"));
 
 //Purpose of letterPositions:
 //return all index position # for each letter in the string.
+
+module.exports = letterPositions;

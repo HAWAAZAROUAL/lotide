@@ -14,3 +14,6 @@ console.log(results1);
 
 let results5 = map(words, word => word.length)
 console.log(results5);
+
+//export
+module.exports = map;

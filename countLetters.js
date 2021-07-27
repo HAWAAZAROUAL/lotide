@@ -27,3 +27,5 @@ function countLetters(allLetters) {
 
 
 console.log(countLetters("Lighthouse Labs"));
+
+module.exports = countLetters;

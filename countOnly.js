@@ -8,16 +8,7 @@ const assertEqual = function(actual, expected) {
 
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
-/*
-const countOnly = function(allItems, itemsToCount) {
-  let instanceCount = [];
-  for (i = 0; i < allItems.length; i++){
-    //In here I now want to count the instances of allItems[i]
-  }
-  instanceCount = allItems.length
 
-}
-*/
 const countOnly = function(allItems, itemsToCount) {
   const results = {}; // make an empty object
 
@@ -32,7 +23,9 @@ const countOnly = function(allItems, itemsToCount) {
    }
   }
   return results;
-}
+};
+
+module.exports = countOnly;
 
 //Step 1 - make a function
 // step 2 - go through all the items in the array
