@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@HAWAAZAROUAL/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library of functions which is mini clone of the Lodash library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/HAWAAZAROUAL/lotide.git"
   },
-  "author": "",
+  "author": "Hawaa Zaroual <hawaazaroual@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HAWAAZAROUAL/lotide/issues"
